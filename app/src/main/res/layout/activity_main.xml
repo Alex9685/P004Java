@@ -40,6 +40,47 @@ android:orientation="vertical">
         android:textSize="16sp" />
 
     <EditText
+        android:id="@+id/inputUser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su nombre "
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:textSize="14sp" />
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="266dp"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/_1kltkhimil__ac_sx425_" />
+
+    <TextView
+        android:id="@+id/lblContraseña1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Entrar" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Salir" />
+
+</LinearLayout>
+
+</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
