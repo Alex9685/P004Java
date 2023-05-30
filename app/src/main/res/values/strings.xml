@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P004Java</string>
+    <integer-array name="valores_puestos">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+</resources>
